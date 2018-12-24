@@ -1,0 +1,25 @@
+@import 'materialize-src/sass/materialize.scss';
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+$font-sans: 'Work Sans', sans-serif;
+$blue-dark-scheme : #4d2c91;
+$blue-light-scheme : #b085f5;
+$blue-scheme : #7e57c2;
+$dark-scheme : #616161;
+
+.card-panel{
+    font-family: $font-sans;
+};
+
+.nav-wrapper{
+    background-color: $blue-dark-scheme;
+}
+
+body{
+    background-color: $dark-scheme; 
+}
+
+// #profile-photo{
+//     position: absolute;
+// }
+
