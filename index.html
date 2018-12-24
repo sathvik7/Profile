@@ -13,29 +13,31 @@
 
     <script src="script.js"></script>
     <link rel="stylesheet" href="output.css">
-    <nav>
-        <div class="nav-wrapper" style="font-family: 'Work Sans', sans-serif;">
-            <div class="col s12">
-                <a href="#!" class="breadcrumb">&nbsp;Sathvik</a>
-                <a href="#!" class="breadcrumb">&nbsp;First</a>
-                <a href="#!" class="breadcrumb">Second</a>
-                <a href="#!" class="breadcrumb">Third</a>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper" style="font-family: 'Work Sans', sans-serif;">
+                <div class="col s12">
+                    <a href="#!" class="breadcrumb">&nbsp;Sathvik</a>
+                    <a href="#!" class="breadcrumb">&nbsp;First</a>
+                    <a href="#infoTable" class="breadcrumb">Qualifications</a>
+                    <!-- <a href="#!" class="breadcrumb">Second</a> -->
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 </head>
 
 <body>
 
     <div class="row" class="valign-wrapper">
         <div class="col s3 m4 l2">
-            <br><br>
+            <br>
             <div class="card-image ">
                 <img id="profile-photo" src="pineapple.jpg" alt="" class="circle responsive-img scale-transition scale-out">
             </div>
         </div>
         <div class="col s9 m8 l10">
-            <br><br>
+            <br>
             <div class="card-panel hoverable pink darken-3 scale-transition scale-out">
                 <span class="white-text">I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively. I am similar to what is called
@@ -51,7 +53,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col s9 m8 l10 offset-l2 offset-m4  offset-s3 " class="right">
+        <div class="col s9 m8 l10 offset-l2 offset-m4  offset-s3 ">
             <div class="card-panel hoverable green darken-1 scale-transition scale-out">
                 <span class="white-text">I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively. I am similar to what is called
@@ -60,6 +62,37 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col s9 m8 l10 offset-l2 offset-m4  offset-s3 ">
+            <table id="infoTable" class="highlight responsive-table centered white-text hoverable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Item Name</th>
+                        <th>Item Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alvin</td>
+                        <td>Eclair</td>
+                        <td>$0.87</td>
+                    </tr>
+                    <tr>
+                        <td>Alan</td>
+                        <td>Jellybean</td>
+                        <td>$3.76</td>
+                    </tr>
+                    <tr>
+                        <td>Jonathan</td>
+                        <td>Lollipop</td>
+                        <td>$7.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
+</footer>
 
 </html>

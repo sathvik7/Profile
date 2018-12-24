@@ -16,10 +16,32 @@ $dark-scheme : #616161;
 }
 
 body{
-    background-color: $dark-scheme; 
+    background-color: $dark-scheme;
+}
+table{
+    font-family: $font-sans;
+    background-color: $blue-dark-scheme;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+footer{
+    font-family: $font-sans;
+    background-color: $blue-dark-scheme;
+}
+html {
+    overflow:   scroll;
+  }
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 // #profile-photo{
 //     position: absolute;
 // }
-
+// nav{
+//     position: block;
+// }
+//   main {
+//     flex: 1 0 auto;
+//   }
